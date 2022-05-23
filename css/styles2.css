@@ -5,6 +5,7 @@
 *{
     margin: 0%;
     padding: 0%;
+    background-color: rgb(203, 219, 255);
 }
 
 h1{
@@ -78,4 +79,9 @@ p{
 
 section {
     padding-left: 26%;
+}
+
+footer {
+    padding-left: 26%;
+    margin-top: 3em;
 }
