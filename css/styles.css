@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Smooch&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Macondo&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    background-color: rgb(203, 219, 255);
+}
+
+h1{
+    font-family: 'Smooch', cursive;
+    font-size: 5em;
+}
+
+.titulo{
+    font-family: 'Odibee Sans', cursive;
+    font-size: 3em;
+}
+
+p{
+    font-family: 'Macondo', cursive;
+    font-size: 1em;
+}
+
+#horizontal ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+#nav li {
+    float: right;
+}
+
+#nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 1em 2em;
+    text-decoration: none;
+    background-color: #333;
+}
+
+#nav li a:hover {
+    background-color: #111;
+}
+
+#lado {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    background-color: #f1f1f1;
+    height: 100%; 
+    position: fixed; 
+    overflow: auto;
+}
+
+#lado li a {
+    display: block;
+    color: #000;
+    padding: 8px 0 8px 16px;
+    text-decoration: none;
+    background-color: #f1f1f1;
+}
+
+#lado li a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#lado li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+
+section {
+    padding-left: 26%;
+}
+
+footer {
+    padding-left: 26%;
+}
+
+#escritorio {
+    max-width: auto;
+    max-height: 10em;
+}
